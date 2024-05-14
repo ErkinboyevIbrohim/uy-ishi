@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(53, 30, 73);
+  border-radius: 30px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 300px;
+  background-color: red;
+  text-align: center;
+  border-radius: 100px;
+  padding: 20px;
+  color: white;
+}
+.parent-2 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.parent-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  width: 400px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 300px;
+  padding: 20px;
+  color: white;
+  font-size: 35px;
+}
+.bok {
+  color: white;
+  padding: 20px;
+  width: 400px;
+  background-color: rgb(213, 0, 0);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.bok p {
+  background-color: rgb(0, 255, 0);
+}
+
+.parent-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
